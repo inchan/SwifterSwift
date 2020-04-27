@@ -10,7 +10,7 @@ import XCTest
 
 final class ArrayExtensionsTests: XCTestCase {
 	
-	func testAverage() {
+	func testttttAverage() {
 		XCTAssertEqual([1, 2, 3, 4, 5].average(), 3)
 		XCTAssertEqual([1.2, 2.3, 3.4, 4.5, 5.6].average(), 3.4)
 		XCTAssertEqual([Int]().average(), 0)
