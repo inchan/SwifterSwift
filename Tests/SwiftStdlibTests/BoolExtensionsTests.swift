@@ -15,6 +15,11 @@ final class BoolExtensionsTests: XCTestCase {
 		XCTAssertEqual(true.int, 1)
 		XCTAssertEqual(false.int, 0)
 	}
+    func testIntINT() {
+        XCTAssertEqual(true.int, 1)
+        XCTAssertEqual(false.int, 0)
+    }
+
 	
 	func testString() {
 		XCTAssertEqual(true.string, "true")
